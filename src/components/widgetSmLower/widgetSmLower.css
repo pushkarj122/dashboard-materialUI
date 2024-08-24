@@ -1,0 +1,57 @@
+.widgetSmLower{
+    flex:1;
+    -webkit-box-shadow: 0px 0px 55px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 55px -10px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 55px -10px rgba(0,0,0,0.75);
+padding: 20px;
+margin-right: 20px;
+}
+.widgetSmLowerTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.widgetSmLowerImg{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetSmLowerList{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+}
+.widgetSmLowerListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    
+}
+.widgetSmLowerUser{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 40%;
+}
+
+.widgetSmLowerName{
+    font-weight:600;
+    
+
+}
+.widgetSmLowerUserType{
+    font-weight: 300;
+    
+}
+.widgetSmLowerButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 10px;
+    background-color: rgb(230, 56, 56);
+    color: white;
+    cursor: pointer;
+}

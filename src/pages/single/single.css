@@ -1,0 +1,146 @@
+
+  .container{
+    display: flex;
+    margin-top: 10px;
+  }
+  .singleContainer {
+    
+    display: flex;
+    
+    flex: 4;
+    
+    padding: 20px;
+  
+  .top {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    .right{
+        flex: 1;
+        .item {
+            display: flex;
+            gap: 20px;
+  
+            .itemImg {
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              object-fit: cover;
+            }
+  
+            .details {
+              .itemTitle {
+                margin-bottom: 10px;
+                color: #555;
+              }
+  
+              .detailItem {
+                margin-bottom: 10px;
+                
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+  
+                .itemKey {
+                  font-weight: bold;
+                  color: gray;
+                  margin-right: 5px;
+                }
+  
+                .itemValue {
+                  font-weight: 300;
+                  .licensePic{
+                    width: 350px;
+                    height: 350px;
+                    border-radius: 8px;
+                  }
+                }
+              }
+            }
+          }
+    }
+    .left {
+        flex: 1;
+        padding: 20px;
+        /* position: relative; */
+        .title {
+            font-size: 26px;
+            color: lightgray;
+            margin-bottom: 20px;
+          }
+        .item {
+          display: flex;
+          gap: 20px;
+
+          .itemImg {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          .details {
+            .itemTitle {
+              margin-bottom: 10px;
+              color: #555;
+            }
+
+            .detailItem {
+              margin-bottom: 10px;
+              font-size: 14px;
+
+              .itemKey {
+                font-weight: bold;
+                color: gray;
+                margin-right: 5px;
+              }
+
+              .itemValue {
+                font-weight: 300;
+              }
+            }
+          }
+        }
+      }
+
+  }
+  
+}
+  
+.cellAction{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+
+    .acceptButton{
+        font-size: 25px;
+        cursor:pointer;
+        padding: 2px 5px;
+        border-radius: 10px;
+        color: rgb(42, 172, 42);
+        border: 1px dotted darkgreen;
+    }
+    .deleteButton{
+        font-size: 25px;
+        cursor: pointer;
+        padding: 2px 5px;
+        border-radius: 10px;
+        background-color: red;
+        color: rgba(255, 255, 255, 0.911);
+        border: 1px dotted red;
+    }
+    .rejectButton{
+        font-size: 25px;
+        cursor: pointer;
+        padding: 2px 5px;
+        border-radius: 10px;
+        color: rgba(209, 5, 5, 0.911);
+        border: 1px dotted red;
+    }
+    
+
+}

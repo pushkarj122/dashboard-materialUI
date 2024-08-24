@@ -1,0 +1,152 @@
+import { dividerClasses } from "@mui/material"
+
+export const userColumns = [{ field: 'id', headerName: 'ID', width: 90 }, {
+    field: 'user', headerName: 'User', width: 200, renderCell: (params) => {
+        return (
+            <div className="cellWithImg">
+                <img className="cellImg" src={params.row.img} alt="image"></img>
+                {params.row.user}
+            </div>
+        )
+    }
+},
+{ field: 'email', headerName: 'Email', width: 180 },
+{ field: 'phno', headerName: 'Phone No', width: 160 },
+{ field: 'city', headerName: 'City', width: 110 },
+{ field: 'type', headerName: 'Type', width: 110 },
+{ field: 'age', headerName: 'Age', width: 100 },
+]
+
+export const userRows = [
+    {
+        id: 1,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+    {
+        id: 2,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+    {
+        id: 3,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+    {
+        id: 4,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+    {
+        id: 5,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+    {
+        id: 6,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+    {
+        id: 7,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+    {
+        id: 8,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+    {
+        id: 9,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+    {
+        id: 10,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+    {
+        id: 11,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+    {
+        id: 12,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+    {
+        id: 13,
+        user: "Manoj Kumar",
+        img: 'https://media.istockphoto.com/id/1731160977/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.webp?b=1&s=170667a&w=0&k=20&c=3wLUHGielRiPvBGCSzBDhbxRXcR2KhQ9ONbGPvqbjH8=',
+        email: 'abcd123@gmail.com',
+        phno: 9987867543,
+        city: 'Bangalore',
+        type: 'Advocate',
+        age: 45,
+    },
+
+]

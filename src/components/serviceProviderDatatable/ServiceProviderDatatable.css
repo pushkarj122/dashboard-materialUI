@@ -1,0 +1,44 @@
+.datatable{
+    flex: 4;
+    height: 600px;
+    padding: 20px;
+
+    h2{
+        color: rgb(82, 78, 78);
+    }
+    .cellWithImg{
+        display: flex;
+        align-items: center;
+
+        .cellImg{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+            
+        }
+    }
+    .cellActionSPD{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .detailsButtonSPD{
+            cursor:pointer;
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: rgb(42, 172, 42);
+            border: 1px dotted darkgreen;
+        }
+        .deleteButtonSPD{
+            cursor: pointer;
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: rgba(209, 5, 5, 0.911);
+            border: 1px dotted red;
+        }
+        
+
+    }
+}
